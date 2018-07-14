@@ -24,8 +24,8 @@ time.struct_time(tm_year=1601, tm_mon=1, tm_mday=1, tm_hour=0, tm_min=0, tm_sec=
 ```
 
 ## flask bootstrap table
-![flask-bootstrap-table](https://github.com/bambooom/flask-bootstrap-table)
+[flask-bootstrap-table](https://github.com/bambooom/flask-bootstrap-table)
 
 ## flask-sqlalchemy
-![flask-sqlalchemy](http://www.pythondoc.com/flask-sqlalchemy/quickstart.html)
+[flask-sqlalchemy](http://www.pythondoc.com/flask-sqlalchemy/quickstart.html)
 
