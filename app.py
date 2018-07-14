@@ -83,8 +83,8 @@ class Urls(db.Model):
     def serialize(self):
         return {
                 "id" : self.id,
-                "url" : "<a href=\"" + self.url + "\">" + self.url + "</a>",
-                "title" : self.title,
+                "url" : "<div style=\"width:300px;overflow:hidden;text-overflow: ellipsis;white-space:nowrap;\"><a href=\"" + self.url + "\">" + self.url + "</a></div>",
+                "title" : "<div style=\"width:300px;overflow:hidden;text-overflow: ellipsis;white-space:nowrap;\">"+self.title+"</div>",
                 "visit_count" : self.visit_count,
                 "typed_count" : self.typed_count,
                 "last_visit_time" : time.strftime("%Y-%m-%d %H:%M:%S",time.gmtime(self.last_visit_time/10**6-11644473600)),
